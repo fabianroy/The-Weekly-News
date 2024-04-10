@@ -4,13 +4,14 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+console.log(import.meta.env.VITE)
 const firebaseConfig = {
-  apiKey: "AIzaSyAJqAQPwZND23cl90XAP2vog_bpyHLgR9A",
-  authDomain: "the-weekly-star.firebaseapp.com",
-  projectId: "the-weekly-star",
-  storageBucket: "the-weekly-star.appspot.com",
-  messagingSenderId: "855971652241",
-  appId: "1:855971652241:web:30175c8426f307c3f9d530"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase

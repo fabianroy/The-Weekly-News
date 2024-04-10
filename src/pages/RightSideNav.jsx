@@ -15,15 +15,15 @@ const RightSideNav = () => {
 
             <div className="p-4 mb-6">
                 <h2 className="text-xl mb-2">Find Us On</h2>
-                <a className="px-4 py-2 flex items-center gap-2 border rounded-t-lg" href="">
+                <a className="px-4 py-2 flex items-center gap-2 border rounded-t-lg">
                     <FaFacebook className="text-blue-700"></FaFacebook>
                     Facebook
                 </a>
-                <a className="px-4 py-2 flex items-center gap-2 border" href="">
+                <a className="px-4 py-2 flex items-center gap-2 border">
                     <FaTwitter className="text-blue-500"></FaTwitter>
                     Twitter
                 </a>
-                <a className="px-4 py-2 flex items-center gap-2 border rounded-b-lg" href="">
+                <a className="px-4 py-2 flex items-center gap-2 border rounded-b-lg">
                     <FaInstagram className="text-red-600"></FaInstagram>
                     Instagram
                 </a>
